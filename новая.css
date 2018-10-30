@@ -1,0 +1,92 @@
+*{
+  padding: 15px;
+}
+body {
+    max-width: 740px;
+    border: 3px solid;
+    align-content: center;
+    margin: 0 auto;  
+}
+
+.box8, .box6, .box13, .box9, .box10 {
+      padding: 20px 0px 20px 5px;
+      margin: 10px; 
+      background-color:  #DCDCDC;
+      border: 1px solid; }
+
+.box1, .box2, .box3, .box4,.box5 , .box16, .box17, .box18, .box19{
+      padding: 20px 0px 20px 5px;
+      margin: 10px; 
+      background-color:   #808080;
+      border: 1px solid; }
+      
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:  center; }
+
+  .flexconteiner1{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 15%;
+    border-bottom: 1px solid; }
+        .box1{ flex: 0.5 0.5 auto ; }
+        .box2{ flex: 1 1 auto; }
+        .box1{ flex: 4 4 auto ; }
+  .flexconteiner2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    flex: 4 4 60%;}
+      .bodycoteiner1{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start }
+        .box4{ 
+           flex: 5 5 auto;
+           margin-bottom: 100px; }
+        .box5{ 
+          flex: 1 1 auto;
+          align-self: flex-end; }
+      .bodycoteiner2{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-around ;  }
+        .box6{ flex-basis:100%; }
+        .box8{ 
+          flex-basis: 13%;
+          border: 1px solid; }
+        .box13{ 
+          flex-basis: 13%;
+          margin-right: 200px; }
+        .box9{ flex: 40%; }
+        .box10{ flex: 40%; }
+
+
+  .flexconteiner3{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-top: 1px solid;
+    flex: 1 1 25%;}
+
+      .footercontenier1{
+        flex: 1 1 75%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;}
+            .box16{ flex-grow: 1; }
+            .box17{ flex-grow: 1; }
+
+      .footercontenier2{ 
+        flex: 1 1 25%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0; }
+          .box18{ flex-grow: 2; }
+          .box19{ flex-grow: 2; }
+
